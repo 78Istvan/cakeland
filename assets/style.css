@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* navigation bar and head line */
+
 .container {
   display: flex;
   flex-direction: row;
@@ -8,17 +15,106 @@
 }
 
 .items {
-  padding: 50px;
+  padding: 25px;
   text-decoration: none;
   color: #2d2e2f;
   line-height: 43px;
   font: 18px raleway, sans-serif;
 }
 
-.logo {
+.cakeland-logo {
   font-size: 42px;
   color: #fff;
   letter-spacing: 0.05em;
   font-weight: normal;
   font-family: "Titillium Web", sans-serif;
+}
+
+/* main logo*/
+.main_logo_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main_logo_a {
+  flex-grow: 1;
+  height: 350px;
+  width: auto;
+  background-color: aqua;
+}
+
+.main_logo_b {
+  flex-grow: 3;
+  height: 350px;
+  width: auto;
+  background-color: aquamarine;
+}
+
+.main_logo_c {
+  flex-grow: 1;
+  height: 350px;
+  width: auto;
+  background-color: aqua;
+}
+
+.logo_middle_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_position {
+}
+
+/* two button section */
+.two-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+
+.two-button {
+  height: 35px;
+  width: 120px;
+  background-color: #fff;
+  color: #020302;
+}
+
+/* about section */
+.about_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.about_text_container {
+  width: 50%;
+  background-color: aqua;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_video {
+  height: 150px;
+  width: 50%;
+  background-color: aquamarine;
+}
+.about {
+  text-align: center;
+}
+
+.about_wrighting {
+  text-align: center;
+}
+
+.read_more_button {
+  height: 35px;
+  width: 120px;
+  background-color: #fff;
+}
+.read_more_box {
+  text-align: center;
 }
