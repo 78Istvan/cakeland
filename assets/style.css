@@ -115,3 +115,10 @@ body {
 .read_more_box {
   text-align: center;
 }
+
+/*full lrntg image section */
+
+.full_length_img {
+  height: 400px;
+  width: 100%;
+}
