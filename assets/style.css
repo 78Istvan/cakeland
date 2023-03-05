@@ -49,6 +49,10 @@ body {
   height: 350px;
   width: auto;
   background-color: aquamarine;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main_logo_c {
@@ -58,12 +62,11 @@ body {
   background-color: aqua;
 }
 
-.logo_middle_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.logo_position {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
 }
-
 /* two button section */
 .two-button-container {
   display: flex;
