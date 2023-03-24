@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 /* navigation bar and head line */
@@ -8,12 +9,22 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
   background-color: #a9aaab;
   align-items: center;
 }
+.container_1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+}
 
+.container_2 {
+  display: flex;
+  justify-content: start;
+  width: 70%;
+}
 .items {
   padding: 25px;
   text-decoration: none;
@@ -66,6 +77,12 @@ body {
   height: 100px;
   width: 100px;
   background-color: gold;
+}
+
+.logo_middle_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 /* two button section */
 .two-button-container {
