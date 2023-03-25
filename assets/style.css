@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   display: block;
+  background-color: aqua;
 }
 
 /* navigation bar and head line */
@@ -52,14 +53,14 @@ body {
   flex-grow: 1;
   height: 350px;
   width: auto;
-  background-color: aqua;
+  background-color: #fff;
 }
 
 .main_logo_b {
   flex-grow: 3;
   height: 350px;
   width: auto;
-  background-color: aquamarine;
+  background-color: #fff;
 
   display: flex;
   justify-content: center;
@@ -70,15 +71,13 @@ body {
   flex-grow: 1;
   height: 350px;
   width: auto;
-  background-color: aqua;
+  background-color: #fff;
 }
 
-.logo_position {
-  height: 100px;
-  width: 100px;
-  background-color: gold;
+.my_logo {
+  height: 350px;
+  width: 350px;
 }
-
 .logo_middle_container {
   display: flex;
   justify-content: center;
