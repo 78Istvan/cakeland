@@ -1,8 +1,23 @@
+* {
+  color: #d6ede9;
+  color: #d6f1ed;
+  color: #f9dbd5;
+  color: #ebf5f1;
+  color: #f9f5f5;
+  color: #ced9cb;
+  color: #d1b86f;
+  color: #f4ba9e;
+  color: #f1ece0;
+  color: #c6ad44;
+}
+
 body {
   margin: 0;
   padding: 0;
   display: block;
-  background-color: aqua;
+  background-color: #f9f5f5;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /* navigation bar and head line */
@@ -53,14 +68,20 @@ body {
   flex-grow: 1;
   height: 350px;
   width: auto;
-  background-color: #b8e0f1;
+  background-color: #f9dbd5;
 }
 
 .main_logo_b {
   flex-grow: 3;
   height: 350px;
   width: auto;
-  background-color: #b8e0f1;
+  background: linear-gradient(
+    to right,
+    #f9dbd5 0%,
+    #f9dbd5 50%,
+    #d6f1ed 50%,
+    #d6f1ed 100%
+  );
 
   display: flex;
   justify-content: center;
@@ -71,7 +92,7 @@ body {
   flex-grow: 1;
   height: 350px;
   width: auto;
-  background-color: #b8e0f1;
+  background-color: #d6f1ed;
 }
 
 .my_logo {
@@ -106,7 +127,8 @@ body {
 
 .about_text_container {
   width: 50%;
-  background-color: aqua;
+  background-color: #f9f5f5;
+  color: #d1b86f;
 
   display: flex;
   flex-direction: column;
@@ -116,14 +138,18 @@ body {
 .about_video {
   height: 150px;
   width: 50%;
-  background-color: aquamarine;
+  background-color: #f9f5f5;
 }
 .about {
   text-align: center;
+  color: #151311;
+  margin-bottom: 0;
 }
 
 .about_wrighting {
   text-align: center;
+  color: #151311;
+  font-size: 18px;
 }
 
 .read_more_button {
