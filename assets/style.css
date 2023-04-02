@@ -14,7 +14,11 @@
   color: #f1ece0;
   color: #c6ad44;
 }
-
+/*
+----------------------
+ general use 
+------------------
+*/
 body {
   margin: 0;
   padding: 0;
@@ -23,6 +27,10 @@ body {
   width: 1000px;
   margin: 0 auto;
   font-family: "inter", sans-serif;
+}
+
+h2 {
+  font-size: 27.65px;
 }
 
 /* navigation bar and head line */
@@ -54,8 +62,8 @@ body {
   font: 18px raleway, sans-serif;
 }
 
-.cakeland-logo {
-  font-size: 42px;
+.cakeland_logo_corner {
+  font-size: 47.78px;
   color: #fff;
   letter-spacing: 0.05em;
   font-weight: normal;
@@ -155,10 +163,10 @@ body {
 }
 
 .about_wrighting {
-  text-align: center;
+  text-align: LEFT;
   color: #151311;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: -1px;
 }
 
