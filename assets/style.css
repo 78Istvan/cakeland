@@ -171,8 +171,7 @@ h2 {
 }
 
 .read_more_button {
-  height: 35px;
-  width: 120px;
+  padding: 18px 32px;
   background-color: #fff;
   border: none;
   margin-bottom: 15px;
