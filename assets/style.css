@@ -194,3 +194,26 @@ h2 {
   object-position: center center;
   opacity: 1;
 }
+
+/* flvours section build with grid */
+
+.flavours_grid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+}
+
+.el--1 {
+  background-color: #c6ad44;
+}
+
+.el--2 {
+  background-color: #2d2e2f;
+}
+
+.el--3 {
+  background-color: #f4ba9e;
+}
+
+.el--4 {
+  background-color: #d6f1ed;
+}
