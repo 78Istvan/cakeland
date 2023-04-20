@@ -150,10 +150,13 @@ h2 {
 }
 
 .about_video {
-  height: 150px;
-  width: 50%;
-  background-color: #f9f5f5;
 }
+
+.raspberry__video {
+  height: 500px;
+  width: 500px;
+}
+
 .about {
   text-align: center;
   color: #151311;
