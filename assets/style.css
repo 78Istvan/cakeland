@@ -31,8 +31,21 @@ body {
 
 h2 {
   font-size: 27.65px;
+  color: #2d2e2f;
+  text-align: left;
+  text-decoration: underline;
+  margin: 0;
 }
 
+h4 {
+  margin: 5px 0;
+  color: #2d2e2f;
+}
+
+p {
+  margin: 0 0 20px 0;
+  color: #2d2e2f;
+}
 /* navigation bar and head line */
 
 .container {
@@ -149,9 +162,6 @@ h2 {
   justify-content: center;
 }
 
-.about_video {
-}
-
 .raspberry__video {
   height: 500px;
   width: 500px;
@@ -163,12 +173,13 @@ h2 {
   margin-bottom: 0;
   line-height: 1.2;
   letter-spacing: 1px;
+  text-decoration: underline;
 }
 
 .about_wrighting {
   text-align: LEFT;
   color: #151311;
-  font-size: 18px;
+  font-size: 17.5px;
   line-height: 1.5;
   letter-spacing: -1px;
 }
@@ -179,6 +190,7 @@ h2 {
   border: none;
   margin-bottom: 15px;
   border-radius: 8%;
+  text-transform: uppercase;
 }
 .read_more_box {
   text-align: center;
@@ -188,32 +200,41 @@ h2 {
 /*full lrntg image section */
 
 .img_full_screen {
-  height: 300px;
+  height: 260px;
   width: 100%;
   object-fit: cover;
   object-position: center center;
   opacity: 1;
+  margin-bottom: 35px;
 }
 
 /* flvours section build with grid */
 
+.flavours_section {
+  background-image: url("https://img.freepik.com/free-vector/girly-pink-background_53876-85148.jpg?w=900&t=st=1682112361~exp=1682112961~hmac=e7305058de0ba1c0cb7d5295b2150384578a551d8930a81a7adf8672f37cd157");
+}
+
 .flavours_grid {
+  /* grid layout */
   display: grid;
   grid-template-columns: 500px 500px;
 }
 
 .el--1 {
-  background-color: #c6ad44;
+  padding: 15px 15px;
 }
 
 .el--2 {
-  background-color: #2d2e2f;
+  padding: 15px 15px;
 }
 
 .el--3 {
-  background-color: #f4ba9e;
+  padding: 15px 15px;
+}
+.el--4 {
+  padding: 15px 15px;
 }
 
-.el--4 {
-  background-color: #d6f1ed;
+.flavours_headline {
+  margin: 0 0 30px 0;
 }
