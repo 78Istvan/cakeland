@@ -283,11 +283,10 @@ p {
 .footer_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background: linear-gradient(
-    to right,
-    #f9dbd5 0%,
-    #f9dbd5 70%,
-    #d6f1ed 70%,
-    #d6f1ed 100%
-  );
+  text-align: left;
+  background: linear-gradient(110deg, #f9dbd5 50%, 60%, #d6f1ed 60%);
+  font-size: 13.33px;
+  padding: 25px 0 0 35px;
+  line-height: 1.5;
+  letter-spacing: -1px;
 }
