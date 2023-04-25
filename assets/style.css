@@ -272,8 +272,8 @@ p {
 }
 
 .testimonials_logo {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   margin-bottom: 15px;
 }
@@ -292,9 +292,11 @@ p {
 }
 
 .footer_copyright {
-  background-color: #a9aaab;
+  background-color: #595a5b;
   padding: 10px;
   text-align: center;
   /* 9.16 / 11.11 */
   font-size: 11.11px;
+  color: #fff;
+  font-weight: 200;
 }
