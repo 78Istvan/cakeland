@@ -288,7 +288,6 @@ p {
   font-size: 13.33px;
   padding: 25px 0 0 35px;
   line-height: 1.5;
-  letter-spacing: -1px;
 }
 
 .footer_copyright {
@@ -306,6 +305,11 @@ p {
 #FaceBookLogo {
   height: 24px;
   width: 24px;
+  display: inline-block;
+}
+
+.fa-instagram {
+  display: inline-block;
 }
 
 .fa-instagram {
@@ -315,4 +319,28 @@ p {
 
 .fa-copyright {
   margin: 0 5px;
+}
+
+.email_phone {
+  text-align: center;
+  margin: 0;
+  padding-top: 35px;
+}
+
+.social_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.f {
+  background-color: #c6ad44;
+  height: 20px;
+  width: 20px;
+}
+
+.i {
+  background-color: #8144c6;
+  height: 20px;
+  width: 20px;
 }
