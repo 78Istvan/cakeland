@@ -235,11 +235,12 @@ p {
   padding: 15px 0 15px 15px;
 }
 .el--4 {
-  padding: 45px 15px 0 0;
+  padding: 10px 15px 0 0;
 }
 
 .cupcake_cake_img {
   width: 485px;
+  height: 650px;
 }
 
 .flavours_headline {
@@ -257,7 +258,6 @@ p {
 }
 
 .testimonials_text {
-  height: 100pxpx;
   text-align: center;
   padding: 10px;
   display: inline-block;
