@@ -127,7 +127,7 @@ p {
   text-align: center;
 }
 
-/* cards section*/
+/* cards section and layout*/
 
 .cards_section {
   display: flex;
@@ -146,6 +146,18 @@ p {
   background-color: #e5d8b1;
 }
 
+/* cards image and styling section */
+
+.el_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wedding_img {
+  height: 200px;
+  width: 140px;
+}
 /* footer section */
 
 .footer_container {
