@@ -138,11 +138,16 @@ p {
   max-width: 800px;
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 240px 30px;
+  grid-template-rows: 250px 240px;
+  gap: 20px;
 }
 .cards {
   width: 180px;
   background-color: #fff;
+  transition: box-shadow 0.3s;
+
+  display: flex;
+  flex-direction: column;
 }
 
 /* cards image and styling section */
@@ -150,11 +155,17 @@ p {
 .el_1 {
   display: flex;
 }
-
+.el_1:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
+  clip-path: inset(0px -10px -10px -10px);
+}
 .wedding_img {
-  height: 220px;
+  height: 210px;
   width: 180px;
-  box-shadow: 0 20px 50px 0 rgba(13, 6, 10, 0.94);
+}
+
+.cake_name {
+  font-weight: 500;
 }
 /* footer section */
 
