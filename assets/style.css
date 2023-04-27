@@ -45,6 +45,7 @@ h4 {
 
 p {
   color: #2d2e2f;
+  margin: 10px;
 }
 /* navigation bar and head line */
 
@@ -235,7 +236,7 @@ p {
   padding: 15px 0 15px 15px;
 }
 .el--4 {
-  padding: 10px 15px 0 0;
+  padding: 10px 15px 10px 0;
 }
 
 .cupcake_cake_img {
