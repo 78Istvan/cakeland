@@ -294,7 +294,7 @@ ul {
 }
 
 #slider li {
-  float: left;
+  float: none;
   position: relative;
   width: 600px;
   display: inline-block;
@@ -388,7 +388,7 @@ ul {
 }
 
 #slider ul {
-  -webkit-animation: slide-animation 20s infinite;
+  -webkit-animation: slide-animation 15s infinite;
 }
 
 #slider ul:hover {
