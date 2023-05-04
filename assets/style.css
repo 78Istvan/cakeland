@@ -187,7 +187,7 @@ p {
   letter-spacing: -1px;
 }
 
-.read_more_button {
+/*.read_more_button {
   padding: 18px 32px;
   background-color: #fff;
   border: none;
@@ -195,7 +195,57 @@ p {
   border-radius: 8%;
   text-transform: uppercase;
   font-weight: 600;
+} */
+
+.read_more_button {
+  --color: #d1b86f;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
 }
+
+.read_more_button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.read_more_button:hover {
+  color: #fff;
+}
+
+.read_more_button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.read_more_button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.read_more_button:active:before {
+  background: #d6f1ed;
+  transition: background 0s;
+}
+
 .read_more_box {
   text-align: center;
   color: #c6ad44;
