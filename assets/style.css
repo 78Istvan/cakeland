@@ -46,9 +46,43 @@ h4 {
 p {
   color: #2d2e2f;
   margin: 10px;
+  position: relative;
+  display: block;
 }
-/* navigation bar and head line */
+/* head container */
 
+.headline_container {
+  display: flex;
+  flex-direction: row;
+  background-color: #595a5b;
+  justify-content: end;
+}
+
+.headline_text {
+  position: relative;
+  display: block;
+}
+
+.headtext {
+  color: #dfd7d7;
+  font-size: 13.33px;
+}
+
+.social_head_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+.ff {
+  background-color: #595a5b;
+  height: 25px;
+  width: 25px;
+}
+
+/* navigation bar and head line */
 .container {
   display: flex;
   flex-direction: row;
@@ -187,7 +221,7 @@ p {
   letter-spacing: -1px;
 }
 
-.read_more_button {
+/*.read_more_button {
   padding: 18px 32px;
   background-color: #fff;
   border: none;
@@ -195,7 +229,57 @@ p {
   border-radius: 8%;
   text-transform: uppercase;
   font-weight: 600;
+} */
+
+.read_more_button {
+  --color: #d1b86f;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
 }
+
+.read_more_button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.read_more_button:hover {
+  color: #fff;
+}
+
+.read_more_button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.read_more_button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.read_more_button:active:before {
+  background: #d6f1ed;
+  transition: background 0s;
+}
+
 .read_more_box {
   text-align: center;
   color: #c6ad44;
@@ -443,14 +527,14 @@ ul {
 }
 .f {
   background-color: #ecf8f6;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
 
 .i {
   background-color: #ecf8f6;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   margin-right: 40px;
 }
 
