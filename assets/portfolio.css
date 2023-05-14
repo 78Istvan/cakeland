@@ -232,18 +232,19 @@ a {
   display: inline-block;
   width: 180px;
   height: 35px;
-  background-color: #f9f5e8;
+  background-color: #e5d8b1;
   position: relative;
   overflow: hidden;
   border: none;
   transition: color 0.5s;
   z-index: 1;
-  font-size: 17px;
+  font-size: 13px;
   text-align: left;
   font-weight: 500;
   color: #2d2e2f;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
+  padding: 0;
 }
 
 .cake_name_button:hover {
@@ -271,6 +272,15 @@ a {
   color: #c6ad44;
 }
 
+.more {
+  background-color: #e5d8b1;
+  border-radius: 5%;
+  padding: 20px;
+}
+
+.more:hover {
+  background-color: #a8d4cd;
+}
 /* footer section */
 
 .footer_container {
