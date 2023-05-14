@@ -73,6 +73,16 @@ p {
   display: inline;
 }
 
+.icon {
+  display: inline-block;
+  width: 15px;
+  height: 35px;
+  font-size: inherit;
+  color: inherit;
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
 .social_head_container {
   display: flex;
   flex-direction: row;
@@ -555,4 +565,5 @@ ul {
   text-decoration: underline;
   line-height: 1.5px;
   text-transform: capitalize;
+  display: inline-block;
 }
