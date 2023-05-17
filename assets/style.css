@@ -347,7 +347,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-/* testimopnials section */
+.slick-next:before,
+.slick-prev:before {
+  color: #2d2e2f;
+}
+
+/* testimonials section start */
 
 .testimonials_container {
   display: flex;
@@ -357,7 +362,7 @@ p {
   background-color: #f9f5f5;
 }
 
-.testimonials_text {
+.slider-container {
   text-align: center;
   padding: 10px;
   display: inline-block;
@@ -378,123 +383,19 @@ p {
   margin-bottom: 15px;
 }
 
-/* testimonial slider */
-
-#slider,
-ul {
-  height: 70px;
-}
-
-#slider {
-  margin: auto;
-  overflow: hidden;
-  padding: 20px;
-  position: relative;
+.slider_testimonials {
+  display: flex;
+  flex-direction: row;
   width: 600px;
+  justify-content: center;
 }
 
-#slider li {
-  float: none;
-  position: relative;
-  width: 600px;
-  display: inline-block;
-}
-
-#slider ul {
-  list-style: none;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 9000px;
-  transition: left 0.2s linear;
-  -moz-transition: left 0.2s linear;
-  -o-transition: left 0.2s linear;
-  -webkit-transition: left 0.2s linear;
-  margin-left: -25px;
-  font-size: 11.11px;
-  color: #666;
-}
-
-/*** Content ***/
-
-.slider-container {
-  color: #000;
-  margin: 0 auto;
-  padding: 0;
-  width: 550px;
-  height: 10px;
+.objects {
   text-align: center;
+  font-size: 11.11px;
 }
 
-.slider-container p {
-  margin: 10px 25px;
-  font-weight: semi-bold;
-  line-height: 150%;
-}
-
-/*** target hooks ****/
-
-@-webkit-keyframes slide-animation {
-  0% {
-    opacity: 0;
-  }
-  2% {
-    opacity: 1;
-  }
-  20% {
-    left: 0px;
-    opacity: 1;
-  }
-  22.5% {
-    opacity: 0.6;
-  }
-  25% {
-    left: -600px;
-    opacity: 1;
-  }
-  45% {
-    left: -600px;
-    opacity: 1;
-  }
-  47.5% {
-    opacity: 0.6;
-  }
-  50% {
-    left: -1200px;
-    opacity: 1;
-  }
-  70% {
-    left: -1200px;
-    opacity: 1;
-  }
-  72.5% {
-    opacity: 0.6;
-  }
-  75% {
-    left: -1800px;
-    opacity: 1;
-  }
-  95% {
-    opacity: 1;
-  }
-  98% {
-    left: -1800px;
-    opacity: 0;
-  }
-  100% {
-    left: 0px;
-    opacity: 0;
-  }
-}
-
-#slider ul {
-  -webkit-animation: slide-animation 15s infinite;
-}
-
-#slider ul:hover {
-  -moz-animation-play-state: paused;
-  -webkit-animation-play-state: paused;
-}
+/* testimonial slider end*/
 
 /* footer section */
 
