@@ -50,7 +50,7 @@ p {
   display: block;
 }
 
-/* head contact/social container */
+/* head contact/social container start*/
 
 .headline_container {
   display: flex;
@@ -64,6 +64,7 @@ p {
   font-size: 13.33px;
   vertical-align: middle;
   display: inline-block;
+  margin-left: 0;
 }
 
 .mail_svg {
@@ -96,6 +97,18 @@ p {
   height: 25px;
   width: 25px;
 }
+
+.material-symbols-outlined {
+  color: #dfd7d7;
+  font-size: 16px;
+}
+
+.material-symbols-outlined-2 {
+  color: #151311;
+  font-size: 21px;
+}
+
+/* headline container end */
 
 /* navigation bar and head line */
 .container {
