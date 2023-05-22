@@ -461,6 +461,10 @@ li {
   gap: 15px;
 }
 
+.mail_icon {
+  height: 20px;
+}
+
 .social_ul {
   padding: 20px 50px 0 0;
 }
