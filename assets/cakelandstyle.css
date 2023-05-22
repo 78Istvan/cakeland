@@ -237,6 +237,11 @@ p {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.slick-next:before,
+.slick-prev:before {
+  color: #2d2e2f;
+}
+
 /* footer section*/
 
 .footer_container {
