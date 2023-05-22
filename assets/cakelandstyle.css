@@ -47,12 +47,8 @@ p {
   margin: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: #2d2e2f;
-}
+/* head line */
 
-/*headline start*/
 .headline_container {
   display: flex;
   flex-direction: row;
@@ -108,14 +104,13 @@ a {
   color: #151311;
   font-size: 21px;
 }
-/*headline end */
 
 /*navigation bar */
 
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   gap: 20px;
   background-color: #a9aaab;
   align-items: center;
@@ -128,7 +123,7 @@ a {
 
 .container_2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   width: 70%;
 }
 .items {
@@ -146,6 +141,7 @@ a {
   font-weight: normal;
   font-family: "Titillium Web", sans-serif;
 }
+
 /* main logo section */
 
 .main_logo_container {
@@ -154,34 +150,40 @@ a {
   justify-content: center;
 }
 
-.main_logoport_d {
+.main_logoava_g {
   flex-grow: 1;
-  height: 350px;
+  height: 250px;
   width: auto;
-  background-color: #e5d8b1;
+  background-color: #f1e2b3;
 }
 
-.main_logoport_e {
+.main_logoava_h {
   flex-grow: 3;
-  height: 350px;
+  height: 250px;
   width: auto;
-  background: linear-gradient(110deg, #e5d8b1 50%, 60%, #a8d4cd 60%);
+  background: linear-gradient(45deg, #f1e2b3 40%, 60%, #adf1e6 60%);
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main_logoport_f {
+.style_link {
+  display: block;
+  text-decoration: none;
+  color: #595a5b;
+  line-height: 1.5;
+}
+.main_logoava_i {
   flex-grow: 1;
-  height: 350px;
+  height: 250px;
   width: auto;
-  background-color: #a8d4cd;
+  background-color: #adf1e6;
 }
 
 .my_logo {
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
 }
 .logo_middle_container {
   display: flex;
@@ -189,166 +191,59 @@ a {
   text-align: center;
 }
 
-/* cards section and layout*/
-
-.cards_section {
+/* slick slider section */
+.flex_slider_container {
   display: flex;
   justify-content: center;
-  padding: 50px 0;
+  margin: 50px 0 20px 0;
 }
-.cards_container {
-  display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 250px 250px;
-  gap: 30px;
+.slider_container {
+  max-width: 700px;
 }
-.cards {
+
+.slide_box {
   width: 200px;
-  height: 270px;
-  background-color: #fff;
-  transition: box-shadow 0.3s;
-  border-radius: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-right: 15px;
 }
 
-/* cards image and styling section */
-
-.el_1 .el_2 {
-  display: flex;
-}
-.el_1:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
-  clip-path: inset(0px -10px -10px -10px);
+.slick-initialized .slick-slide {
+  height: 250px;
 }
 
-.el_2:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
-  clip-path: inset(0px -10px -10px -10px);
+.img_slick {
+  width: 100%;
+  height: auto;
 }
 
-.el_3:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
-  clip-path: inset(0px -10px -10px -10px);
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #a8d4cd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.el_4:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
-  clip-path: inset(0px -10px -10px -10px);
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #e5d8b1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.el_5:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
-  clip-path: inset(0px -10px -10px -10px);
-}
-
-.el_6:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
-  clip-path: inset(0px -10px -10px -10px);
-}
-
-.el_7:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
-  clip-path: inset(0px -10px -10px -10px);
-}
-
-.el_8:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.4);
-  clip-path: inset(0px -10px -10px -10px);
-}
-
-.wedding_img {
-  height: 210px;
-  width: 180px;
-  border-top-right-radius: 5%;
-  border-top-left-radius: 5%;
-  filter: brightness(65%);
-}
-
-.wedding_container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered_text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* card button */
-
-.cake_name_button {
-  font-family: inherit;
-  display: inline-block;
-  width: 180px;
-  height: 35px;
-  background-color: #e5d8b1;
-  position: relative;
-  overflow: hidden;
-  border: none;
-  transition: color 0.5s;
-  z-index: 1;
-  font-size: 13px;
-  text-align: left;
-  font-weight: 500;
-  color: #2d2e2f;
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
-  padding: 0;
-}
-
-.cake_name_button:hover {
-  color: #c6ad44;
-}
-
-.cake_name_button:before {
-  top: 100%;
-  left: 100%;
-  transition: all 0.7s;
-}
-
-.cake_name_button:hover:before {
-  top: -30px;
-  left: -30px;
-}
-
-.cake_name_button:active:before {
-  background: #d6f1ed;
-  transition: background 0s;
-}
-
-.read_more_box {
-  text-align: center;
-  color: #c6ad44;
-}
-
-.more {
-  background-color: #e5d8b1;
-  border-radius: 5%;
-  padding: 20px;
-}
-
-.more:hover {
-  background-color: #a8d4cd;
-}
-/* footer section */
+/* footer section*/
 
 .footer_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: left;
-  background: linear-gradient(
-    to right,
-    #a8d4cd 0%,
-    #a8d4cd 50%,
-    #e5d8b1 50%,
-    #e5d8b1 100%
-  );
+  background: linear-gradient(110deg, #adf1e6 50%, 60%, #f1e2b3 60%);
   font-size: 13.33px;
   padding: 25px 0 0 35px;
   line-height: 1.5;
@@ -387,17 +282,16 @@ a {
   gap: 15px;
 }
 .f {
-  background-color: #ecf8f6;
+  background-color: #f1e2b3;
   height: 25px;
   width: 25px;
-  border-radius: 50%;
 }
 
 .i {
-  background-color: #ecf8f6;
+  background-color: #f1e2b3;
   height: 25px;
   width: 25px;
-  border-radius: 50%;
+  margin-right: 40px;
 }
 
 .icons_svg {
