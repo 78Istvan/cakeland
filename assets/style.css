@@ -555,6 +555,11 @@ ul {
 
 .icons_svg {
   height: 18px;
+  stroke: rgb(36, 27, 27);
+}
+
+li {
+  list-style: none;
 }
 
 #contact {
