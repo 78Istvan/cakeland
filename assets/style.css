@@ -366,12 +366,12 @@ li {
   margin: 0 0 30px 0;
 }
 
+/* testimonials section start */
+
 .slick-next:before,
 .slick-prev:before {
   color: #2d2e2f;
 }
-
-/* testimonials section start */
 
 .testimonials_container {
   display: flex;
