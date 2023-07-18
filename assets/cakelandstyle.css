@@ -208,6 +208,7 @@ p {
 .slide_box {
   width: 200px;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .slick-initialized .slick-slide {
