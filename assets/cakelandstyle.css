@@ -218,6 +218,16 @@ p {
 .img_slick {
   width: 100%;
   height: auto;
+  transition: transform 0.2s;
+  margin: 0 auto;
+  background-color: rgb(173, 173, 237);
+  border-radius: 10px;
+}
+
+.img_slick:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 
 .slick-prev:before,
