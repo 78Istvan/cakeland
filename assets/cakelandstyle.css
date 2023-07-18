@@ -175,6 +175,9 @@ p {
   line-height: 1.5;
 }
 
+.style_link:hover {
+  background-color: rgb(212, 206, 206);
+}
 .main_logoava_i {
   flex-grow: 1;
   height: 250px;
