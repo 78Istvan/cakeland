@@ -1,4 +1,7 @@
-<script
-  src="https://kit.fontawesome.com/a312b27e8f.js"
-  crossorigin="anonymous"
-></script>;
+$(".slider_testimonials").slick({
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  slideToShow: 1,
+});

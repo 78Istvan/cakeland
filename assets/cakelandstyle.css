@@ -110,7 +110,7 @@ p {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   gap: 20px;
   background-color: #a9aaab;
   align-items: center;
@@ -123,7 +123,7 @@ p {
 
 .container_2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   width: 70%;
 }
 .items {
@@ -168,6 +168,12 @@ p {
   align-items: center;
 }
 
+.style_link {
+  display: block;
+  text-decoration: none;
+  color: #595a5b;
+  line-height: 1.5;
+}
 .main_logoava_i {
   flex-grow: 1;
   height: 250px;
@@ -229,6 +235,11 @@ p {
   color: #e5d8b1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #2d2e2f;
 }
 
 /* footer section*/
