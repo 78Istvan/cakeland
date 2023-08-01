@@ -174,6 +174,10 @@ p {
   color: #595a5b;
   line-height: 1.5;
 }
+
+.style_link:hover {
+  background-color: rgb(212, 206, 206);
+}
 .main_logoava_i {
   flex-grow: 1;
   height: 250px;
@@ -204,6 +208,7 @@ p {
 .slide_box {
   width: 200px;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .slick-initialized .slick-slide {
@@ -213,6 +218,16 @@ p {
 .img_slick {
   width: 100%;
   height: auto;
+  transition: transform 0.2s;
+  margin: 0 auto;
+  background-color: rgb(173, 173, 237);
+  border-radius: 10px;
+}
+
+.img_slick:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 
 .slick-prev:before,

@@ -4,7 +4,7 @@ $(".slider_container").slick({
   centerPadding: "60px",
   slidesToShow: 3,
   autoplay: true,
-  speed: 2000,
+  speed: 3000,
   responsive: [
     {
       breakpoint: 768,
