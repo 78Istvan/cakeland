@@ -1,0 +1,26 @@
+body {
+  background: #ccc;
+}
+/*.main {
+  font-family: Arial;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+*/
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+.img_slick {
+  width: 100%;
+  height: auto;
+}
+
+.img_slick_2 {
+  width: 100%;
+  height: auto;
+}

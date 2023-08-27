@@ -457,8 +457,8 @@ a {
   padding-top: 15px;
 }
 
-.contact {
-  margin: 0;
+.foo {
+  margin: ;
 }
 .social_container {
   display: flex;
@@ -467,24 +467,6 @@ a {
   align-items: center;
   gap: 15px;
 }
-
-.mail_icon {
-  height: 20px;
-}
-
-.social_ul {
-  padding: 0 50px 0 0;
-}
-
-.social_li {
-  margin-bottom: 25px;
-}
-
-.social_list {
-  display: inline-block;
-  margin-left: 20px;
-}
-
 .f {
   background-color: #d6f1ed;
   height: 25px;
@@ -500,11 +482,6 @@ a {
 
 .icons_svg {
   height: 18px;
-  stroke: rgb(36, 27, 27);
-}
-
-li {
-  list-style: none;
 }
 
 #contact {
@@ -515,5 +492,4 @@ li {
   text-decoration: underline;
   line-height: 1.5px;
   text-transform: capitalize;
-  display: inline-block;
 }
