@@ -454,7 +454,6 @@ a {
 .email_phone {
   text-align: start;
   margin: 0;
-  padding-top: 15px;
 }
 
 .foo {
@@ -479,7 +478,9 @@ a {
   width: 25px;
   margin-right: 40px;
 }
-
+#head_line {
+  margin: 0 0 25px 0;
+}
 .icons_svg {
   height: 18px;
 }

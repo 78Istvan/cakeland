@@ -236,7 +236,7 @@ p {
 .footer_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  text-align: left;
+  text-align: -webkit-left;
   background: linear-gradient(110deg, #adf1e6 50%, 60%, #f1e2b3 60%);
   font-size: 13.33px;
   padding: 25px 0 0 35px;
