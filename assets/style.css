@@ -137,7 +137,7 @@ a {
 
 .container_2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 70%;
 }
 .items {
