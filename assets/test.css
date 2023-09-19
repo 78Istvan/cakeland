@@ -1,5 +1,10 @@
 body {
   background: linear-gradient(110deg, #e5d8b1 50%, 60%, #a8d4cd 60%);
+  padding: 0;
+  display: block;
+  background-color: #f9f5f5;
+  margin: 0 auto;
+  font-family: "inter", sans-serif;
 }
 /* head line start */
 .headline_container {

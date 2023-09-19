@@ -137,9 +137,11 @@ a {
 
 .container_2 {
   display: flex;
-  justify-content: flex-start;
-  width: 70%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
+
 .items {
   padding: 25px;
   text-decoration: none;
