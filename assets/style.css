@@ -150,6 +150,11 @@ a {
   font: 18px raleway, sans-serif;
 }
 
+.items:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 .cakeland_logo_corner {
   font-size: 47.78px;
   color: #fff;
