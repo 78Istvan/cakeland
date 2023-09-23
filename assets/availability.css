@@ -154,14 +154,14 @@ p {
   flex-grow: 1;
   height: 250px;
   width: auto;
-  background-color: #f1e2b3;
+  background-color: #e5d8b1;
 }
 
 .main_logoava_h {
   flex-grow: 3;
   height: 250px;
   width: auto;
-  background: linear-gradient(45deg, #f1e2b3 40%, 60%, #adf1e6 60%);
+  background: linear-gradient(45deg, #e5d8b1 40%, 60%, #a8d4cd 60%);
 
   display: flex;
   justify-content: center;
@@ -172,7 +172,7 @@ p {
   flex-grow: 1;
   height: 250px;
   width: auto;
-  background-color: #adf1e6;
+  background-color: #a8d4cd;
 }
 
 .my_logo {
@@ -237,7 +237,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background: linear-gradient(110deg, #f9dbd5 50%, 60%, #d6f1ed 60%);
+  background: linear-gradient(110deg, #a8d4cd 50%, 60%, #e5d8b1 60%);
   font-size: 13.33px;
   padding: 25px 0 0 35px;
   line-height: 1.5;
@@ -273,13 +273,13 @@ p {
 }
 
 .f {
-  background-color: #d6f1ed;
+  background-color: #e5d8b1;
   height: 25px;
   width: 25px;
 }
 
 .i {
-  background-color: #d6f1ed;
+  background-color: #e5d8b1;
   height: 25px;
   width: 25px;
   margin-right: 40px;
