@@ -154,14 +154,14 @@ p {
   flex-grow: 1;
   height: 250px;
   width: auto;
-  background-color: #eeddaa;
+  background-color: #a08c4f;
 }
 
 .main_logoava_h {
   flex-grow: 3;
   height: 250px;
   width: auto;
-  background: linear-gradient(45deg, #eeddaa 40%, 60%, #9cebdd 60%);
+  background: linear-gradient(45deg, #a08c4f 40%, 60%, #4aa697 60%);
 
   display: flex;
   justify-content: center;
@@ -179,7 +179,7 @@ p {
   flex-grow: 1;
   height: 250px;
   width: auto;
-  background-color: #9cebdd;
+  background-color: #4aa697;
 }
 
 .my_logo {
