@@ -161,7 +161,7 @@ p {
   flex-grow: 3;
   height: 250px;
   width: auto;
-  background: linear-gradient(45deg, #f1e2b3 40%, 60%, #adf1e6 60%);
+  background: linear-gradient(45deg, #eeddaa 40%, 60%, #9cebdd 60%);
 
   display: flex;
   justify-content: center;
