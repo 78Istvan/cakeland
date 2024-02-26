@@ -1,7 +1,7 @@
 body {
   padding: 0;
   display: block;
-  background-color: #e7e3e3;
+  background-color: #f7f2f2;
   margin: 0 auto;
 }
 /* top navigation flex box*/
@@ -42,4 +42,30 @@ body {
   background-color: rgb(138, 187, 197);
   height: 100px;
   width: 70px;
+}
+/* middle horizontal message block*/
+
+.middle-message-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*middle main block*/
+
+.middle-main-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.main-block1 {
+  background-color: antiquewhite;
+  width: 150px;
+  height: 50px;
+}
+
+.main-block2 {
+  background-color: antiquewhite;
+  width: 150px;
+  height: 50px;
 }
