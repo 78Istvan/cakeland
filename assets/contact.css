@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  display: block;
+  background-color: #e7e3e3;
+  margin: 0 auto;
+}
+/* top navigation flex box*/
+.top-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid red;
+}
+/* under navigation bar box*/
+.under-navbar-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* top 3 tiles flex box*/
+.top3-tiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tile1 {
+  background-color: rgb(148, 113, 180);
+  height: 100px;
+  width: 70px;
+}
+
+.tile2 {
+  background-color: rgb(244, 231, 210);
+  height: 100px;
+  width: 70px;
+}
+
+.tile3 {
+  background-color: rgb(138, 187, 197);
+  height: 100px;
+  width: 70px;
+}

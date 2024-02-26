@@ -193,13 +193,18 @@ a {
   justify-content: center;
   text-align: center;
 }
+.port-img {
+  padding-bottom: 15px;
+}
 /* cards section and layout*/
 
 .cards_section {
   display: flex;
   justify-content: center;
   padding: 50px 0;
-  background-image: url(https://img.freepik.com/free-vector/girly-pink-background_53876-85148.jpg?w=900&t=st=1682112361~exp=1682112961~hmac=e730505…);
+  background-image: url(https://img.freepik.com/premium-photo/gray-backdrop-with-close-up-cake-with-little-hearts-heart-cake-topper-romantic-idea-love-background-valentines-mothers-day-birthday-cake-card-horizonlal_872147-6345.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   margin: 50px 0 50px 0;
 }
 .cards_container {
