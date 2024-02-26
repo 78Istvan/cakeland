@@ -173,7 +173,7 @@ a {
   flex-grow: 1;
   height: 350px;
   width: auto;
-  background-color: #f9dbd5;
+  background-color: #f7baaf;
 }
 
 .main_logo_b {
@@ -182,8 +182,8 @@ a {
   width: auto;
   background: linear-gradient(
     to right,
-    #f9dbd5 0%,
-    #f9dbd5 50%,
+    #f7baaf 0%,
+    #f7baaf 50%,
     #d6f1ed 50%,
     #d6f1ed 100%
   );
@@ -435,7 +435,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background: linear-gradient(110deg, #f9dbd5 50%, 60%, #d6f1ed 60%);
+  background: linear-gradient(110deg, #f7baaf 50%, 60%, #d6f1ed 60%);
   font-size: 13.33px;
   padding: 25px 0 0 35px;
   line-height: 1.5;
