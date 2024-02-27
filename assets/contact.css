@@ -85,6 +85,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.middle-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
 /*middle main block*/
 
 .middle-main-block {
@@ -95,14 +101,19 @@ body {
 }
 .main-block1 {
   background-color: antiquewhite;
-  width: 150px;
-  height: 50px;
+  width: 38%;
+  height: 250px;
+  background-image: url(https://media.istockphoto.com/id/1131330399/photo/confectioner-woman-making-delicious-cream-for-cupcakes.jpg?s=612x612&w=0&k=20&c=vUVlu8HuyZtKQiP6hFKO-CFUeO2a47ALrh9j-ya-bzk=);
 }
 
 .main-block2 {
   background-color: antiquewhite;
-  width: 150px;
-  height: 50px;
+  width: 38%;
+  height: 250px;
+  background-image: url(https://media.istockphoto.com/id/914432518/photo/macarons-in-different-colors-space-for-copy.jpg?s=612x612&w=is&k=20&c=QJevXsWI1xl9wbnp2Es1sPpL3BHmMzqqW4aub9lbq1k=);
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
 }
 /* second horizontal message block*/
 
