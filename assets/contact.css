@@ -11,12 +11,25 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid red;
+  gap: 60px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
 /* under navigation bar box*/
 .under-navbar-line {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.first-message-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
 /* top 3 tiles flex box*/
 .top3-tiles {
@@ -25,23 +38,45 @@ body {
   justify-content: center;
   gap: 10px;
 }
-
+/*tile 1*/
 .tile1 {
   background-color: rgb(148, 113, 180);
-  height: 100px;
-  width: 70px;
+  height: 550px;
+  width: 25%;
+  background-image: url(https://t3.ftcdn.net/jpg/01/05/02/72/360_F_105027238_xgNXdCYGBRBLHMW1ZAObt20mYr8QXQwK.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
+/*tile 2*/
 .tile2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-color: rgb(244, 231, 210);
-  height: 100px;
-  width: 70px;
+  height: 550px;
+  width: 25%;
 }
-
+.main-logo {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.text {
+  text-align: center;
+}
+/*tile3*/
 .tile3 {
   background-color: rgb(138, 187, 197);
-  height: 100px;
-  width: 70px;
+  height: 550px;
+  width: 25%;
+  background-image: url(https://png.pngtree.com/background/20230823/original/pngtree-airborne-treats-green-glazed-doughnuts-with-sprinkles-on-pastel-background-in-picture-image_4788080.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 /* middle horizontal message block*/
 
@@ -68,4 +103,54 @@ body {
   background-color: antiquewhite;
   width: 150px;
   height: 50px;
+}
+/* second horizontal message block*/
+
+.second-message-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* bottom design images*/
+
+.image-design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.bottom-img {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(72, 108, 108);
+}
+/*footer section*/
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px 0 0 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(211, 200, 186);
+}
+/*copyright*/
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-text {
+  height: auto;
+  background-color: rgb(71, 69, 67);
+  color: #f7f2f2;
 }
